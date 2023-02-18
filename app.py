@@ -9,17 +9,6 @@ import gradio as gr
 openai.api_key = "xxxxxx"
 
 start_sequence = "\nAI:"
-restart_sequence = "\nHuman: import os
-import openai
-import gradio as gr
-
-#if you have OpenAI API key as an environment variable, enable the below
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-
-#if you have OpenAI API key as a string, enable the below
-openai.api_key = "xxxxxx"
-
-start_sequence = "\nAI:"
 restart_sequence = "\nHuman: "
 
 prompt = "The following is a conversation with an AI assistant. The assistant is helpful, creative, clever, and very friendly.\n\nHuman: Hello, who are you?\nAI: I am an AI created by OpenAI. How can I help you today?\nHuman: "
